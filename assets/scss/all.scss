@@ -1,0 +1,17 @@
+// Google font
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+@import "../../node_modules/bootstrap/scss/functions";
+@import "./utils/variables";
+@import "../../node_modules/bootstrap";
+
+@import "./base/base";
+@import "./utils/utilities";
+@import "bootstrap/scss/utilities/api";
+
+@import "./layout/footer";
+
+@import "./pages/index";
+@import "./pages/product";
+@import "./pages/detail";
+@import "./pages/checkout-1";

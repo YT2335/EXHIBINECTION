@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Material Icons CDN -->
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <title>完成訂購</title>
+  </head>
+  <body>
+    <%- include('./layout/header'); -%>
+    <main class="container d-flex flex-column min-vh-100">
+      <div class="row">
+        <div class="col-12 col-lg-6 mx-auto">
+          <div class="pt-12 flex-grow-1">
+            <div class="text-center">
+              <span class="material-icons-outlined text-primary fs-11">
+                check_circle
+              </span>
+              <h1 class="fs-5 text-primary mb-6">完成訂購</h1>
+            </div>
+            <p>您的展覽憑證代碼為：</p>
+            <p class="fs-6 text-primary my-12 text-center">qr147352</p>
+            <p>
+              恭喜您已完成「2020 台味設計展」的購票手續，請於 2020/06/01 ~
+              2020/10/31
+              於展覽入口頁面輸入「展覽憑證代碼」，經驗證無誤即可瀏覽。
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="container mt-auto pb-6">
+        <div class="row">
+          <div class="col-12 col-lg-6 mx-auto">
+            <div class="d-flex gap-3">
+              <button type="button" class="btn btn-outline-primary flex-fill">
+                繼續瀏覽
+              </button>
+              <button type="button" class="btn btn-danger flex-fill">
+                看展去
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <script type="module" src="../main.js"></script>
+  </body>
+</html>

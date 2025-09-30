@@ -1,0 +1,32 @@
+.banner {
+  background-image: url("/assets/images/homebanner.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+.banner-btn {
+  padding: 10px 48px;
+}
+.object-fit-cover {
+  object-fit: cover;
+}
+.img-345 {
+  width: 345px;
+  height: 345px;
+}
+.live-review {
+  background-image: url("/assets/images/people2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  margin: 0px 12px;
+}
+.live-review-btn {
+  padding: 10px 38px;
+}
+.live-review-text {
+  background-color: rgba(25, 0, 20, 0.8);
+  height: 100%;
+}

@@ -1,0 +1,22 @@
+.text-indent {
+  text-indent: 2em;
+}
+.h-400 {
+  height: 400px;
+}
+.h-599 {
+  height: 599px;
+}
+.categoryNav {
+  overflow-x: auto;
+  li {
+    text-align: center;
+    flex-shrink: 0;
+  }
+  li:hover {
+    border-bottom: 1px solid #e31277;
+  }
+}
+.nav::-webkit-scrollbar {
+  display: none;
+}
