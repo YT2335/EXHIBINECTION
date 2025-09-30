@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Material Icons CDN -->
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <!-- swiper CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css"
+    />
+    <title>展覽詳情</title>
+    <script type="module" crossorigin src="/EXHIBINECTION/assets/main-BUWzXlR1.js"></script>
+    <link rel="stylesheet" crossorigin href="/EXHIBINECTION/assets/main-BLpJqIfx.css">
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container">
+    <a
+      class="navbar-brand position-absolute top-50 start-50 translate-middle text-primary"
+      href="index"
+    >
+      EXHIBINECTION
+    </a>
+    <button
+      class="navbar-toggler border-0 ms-auto position-relative"
+      type="button"
+      data-bs-toggle="offcanvas"
+      data-bs-target="#offcanvasNavbar"
+      aria-controls="offcanvasNavbar"
+    >
+      <span class="material-icons align-bottom">confirmation_number</span>
+      <span
+        class="position-absolute top-0 end-0 badge bg-danger rounded-pill px-2"
+      >
+        3
+        <span class="visually-hidden">unread messages</span>
+      </span>
+    </button>
+    <div
+      class="offcanvas offcanvas-end"
+      tabindex="-1"
+      id="offcanvasNavbar"
+      aria-labelledby="offcanvasNavbarLabel"
+    >
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
+        <button
+          type="button"
+          class="btn-close text-reset"
+          data-bs-dismiss="offcanvas"
+          aria-label="Close"
+        ></button>
+      </div>
+      <div class="offcanvas-body">
+        <ul class="navbar-nav ms-auto gap-10">
+          <li class="nav-item">
+            <a class="nav-link text-secondary-20" href="#">Sign in</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-secondary-20" href="#">Sign up</a>
+          </li>
+          <li class="nav-item d-none d-lg-block">
+            <a class="nav-link position-relative" href="#">
+              <span class="material-icons align-bottom"
+                >confirmation_number</span
+              >
+              <span
+                class="position-absolute top-0 start-50 badge bg-danger rounded-pill px-2"
+              >
+                3
+                <span class="visually-hidden">unread messages</span>
+              </span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>
+    <main>
+      <!-- 類別導覽列 -->
+      <ul
+        class="nav categoryNav d-flex flex-nowrap justify-content-md-center border border-dark pb-2"
+      >
+        <li class="nav-item">
+          <a class="nav-link text-secondary-20" aria-current="page" href="#"
+            >音樂</a
+          >
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-secondary-20" href="#">戲劇</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-secondary-20" href="#">設計</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-secondary-20" href="#">藝術</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-secondary-20" href="#">美食</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-secondary-20" href="#">旅遊</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-secondary-20" href="#">電影</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-secondary-20" href="#">親子</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-secondary-20" href="#">期間限定</a>
+        </li>
+      </ul>
+      <!-- 展覽資訊 -->
+      <div class="container pt-13">
+        <div class="row align-items-center">
+          <div class="col-12 col-lg-6">
+            <div class="card rounded-0 border-0 w-100 h-100">
+              <img
+                src="/EXHIBINECTION/assets/card1-BRurqELk.jpg"
+                class="mb-2"
+                alt="2020 台味設計展"
+              />
+              <div>
+                <div
+                  class="d-flex align-items-center justify-content-between mb-1"
+                >
+                  <div class="d-flex align-items-center">
+                    <h3 class="fw-bold fs-5 me-2">2020 台味設計展</h3>
+                    <a href="#">
+                      <img
+                        src="data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20width='24'%20height='24'%20viewBox='0%200%2024%2024'%3e%3cdefs%3e%3cstyle%3e.a{fill:none;}%3c/style%3e%3c/defs%3e%3crect%20class='a'%20width='24'%20height='24'/%3e%3cpath%20d='M22,12a10,10,0,1,0-12,9.8V15H8V12h2V9.5A3.5,3.5,0,0,1,13.5,6H16V9H14a1,1,0,0,0-1,1v2h3v3H13v6.95A10,10,0,0,0,22,12Z'/%3e%3c/svg%3e"
+                        alt="facebook icon"
+                      />
+                    </a>
+                  </div>
+                  <p class="fw-medium d-block d-lg-none">01 JUN — 31 OCT</p>
+                </div>
+                <p class="mb-12">
+                  一年一度的台味設計展由經濟部工業局主辦、台灣創意設計中心執行，每年，針對在地生活、文化及產業發展特色，運用設計思考詮釋新時代的意涵，並以展覽呈現在地設計。
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-lg-6">
+            <!-- 票價資訊 -->
+            <div class="card rounded-0 border-0 mb-12">
+              <div class="row">
+                <div class="col-lg-6">
+                  <!-- 張數 -->
+                  <div
+                    class="d-flex align-items-center justify-content-evenly mb-8"
+                  >
+                    <span class="material-icons-outlined"> remove </span>
+                    <p class="fw-bold fs-10">01</p>
+                    <span class="material-icons-outlined"> add </span>
+                  </div>
+                  <p class="text-center mb-12">張</p>
+                </div>
+                <div class="col-lg-6">
+                  <!-- 票種 -->
+                  <div class="mb-13">
+                    <p class="fw-bold fs-10 mb-8 text-center">NT$350</p>
+                    <p class="text-center mb-2">票種</p>
+                    <div class="d-flex justify-content-evenly">
+                      <p class="px-3">學生</p>
+                      <p class="border-bottom border-danger px-3">全票</p>
+                      <p class="px-3">愛心</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- 收藏/購票 按鈕 -->
+              <div class="d-flex gap-4">
+                <button type="button" class="btn btn-outline-primary w-50">
+                  收藏展覽
+                </button>
+                <button type="button" class="btn btn-danger w-50">
+                  購買票券
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 展覽內容 手機板 -->
+        <div class="container d-block d-lg-none">
+          <h2 class="fw-bold fs-5 mb-1">藝饗宴</h2>
+          <p class="fs-5 mb-3">​Celebration of Style and Art</p>
+          <p class="text-indent mb-4">
+            匯集美、日、臺等地的藝術家與時尚設計師的作品。以跨界跨域的潮流文化為軸心，結合街頭塗鴉、時尚文化、名牌符號等，藉由各自特殊的表現語彙，傳達對社會當下流行文化的自我反嘲。然而這些深受大眾喜愛的藝術家，也讓「時尚」的概念不再扁平單一，相反的，他們展現了對社會更具魅力的反思，也提出了對於潮文化的自我觀點。
+          </p>
+          <p class="mb-7">
+            從臺灣前輩藝術家林淵、國際知名的超扁平藝術家村上隆、臺灣彩繪雕塑家洪易、以及當代新玩具雕塑代表Kaws
+            等，都受到許多收藏家的喜愛，同時也是當代藝術史上重要的一員。在這個展區，向藏家借展的作品都是一時之選，也反映出街頭藝術發展的某一種共性。另外，在與時尚跨界的藝術表現上，有永遠嘲諷時尚卻很時尚的藝術家Death
+            NYC、臺灣新銳服裝設計師吳日云、尋找鎂光燈背後那真實藝術家身分的郭彥甫、年輕雕塑家賴冠仲、橫跨藝術與時尚設計師雙重身分的雙人組陳薇與李崇德、創造出療癒角色俊寶Zunbo
+            的韓國設計團隊Sakubo，以及日本藝術家喜久田尚美、南館麻美子等。展區透過空間的裝置與時尚語彙，完美詮釋了藝術、設計與潮流文化的多元樣貌。
+          </p>
+          <img
+            src="/EXHIBINECTION/assets/detail1-DGN5xZ4m.jpg"
+            alt="藝饗宴"
+            class="mb-5 w-100 h-400 object-fit-cover"
+          />
+          <img
+            src="/EXHIBINECTION/assets/detail2-DawtjUmR.jpg"
+            alt="藝饗宴"
+            class="w-100 h-599 object-fit-cover"
+          />
+        </div>
+        <!-- 展覽內容 桌機板 -->
+        <div class="container d-none d-lg-block px-0">
+          <img
+            src="/EXHIBINECTION/assets/detail1-DGN5xZ4m.jpg"
+            alt="藝饗宴"
+            class="mb-5 w-100 h-400 object-fit-cover"
+          />
+          <div class="row">
+            <div class="col-lg-4">
+              <img
+                src="/EXHIBINECTION/assets/detail2-DawtjUmR.jpg"
+                alt="藝饗宴"
+                class="w-100 h-599 object-fit-cover"
+              />
+            </div>
+            <div class="col-lg-8">
+              <h2 class="fw-bold fs-5 mb-1">藝饗宴</h2>
+              <p class="fs-5 mb-3">​Celebration of Style and Art</p>
+              <p class="text-indent mb-4">
+                匯集美、日、臺等地的藝術家與時尚設計師的作品。以跨界跨域的潮流文化為軸心，結合街頭塗鴉、時尚文化、名牌符號等，藉由各自特殊的表現語彙，傳達對社會當下流行文化的自我反嘲。然而這些深受大眾喜愛的藝術家，也讓「時尚」的概念不再扁平單一，相反的，他們展現了對社會更具魅力的反思，也提出了對於潮文化的自我觀點。
+              </p>
+              <p class="mb-7">
+                從臺灣前輩藝術家林淵、國際知名的超扁平藝術家村上隆、臺灣彩繪雕塑家洪易、以及當代新玩具雕塑代表Kaws
+                等，都受到許多收藏家的喜愛，同時也是當代藝術史上重要的一員。在這個展區，向藏家借展的作品都是一時之選，也反映出街頭藝術發展的某一種共性。另外，在與時尚跨界的藝術表現上，有永遠嘲諷時尚卻很時尚的藝術家Death
+                NYC、臺灣新銳服裝設計師吳日云、尋找鎂光燈背後那真實藝術家身分的郭彥甫、年輕雕塑家賴冠仲、橫跨藝術與時尚設計師雙重身分的雙人組陳薇與李崇德、創造出療癒角色俊寶Zunbo
+                的韓國設計團隊Sakubo，以及日本藝術家喜久田尚美、南館麻美子等。展區透過空間的裝置與時尚語彙，完美詮釋了藝術、設計與潮流文化的多元樣貌。
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 猜你也喜歡... 桌機板-->
+      <div class="container mb-8 px-0 py-lg-16 d-none d-lg-block">
+        <h2 class="fw-bold fs-8 mb-2 mb-0">猜你也喜歡...</h2>
+        <div class="row">
+          <div class="col-lg-11 ms-auto">
+            <div class="swiper">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <div class="card rounded-0 border-0">
+                    <img
+                      src="/EXHIBINECTION/assets/like1-CRaNj5_8.jpg"
+                      alt="No.22 線上設計展"
+                      class="mb-2 img-fluid img-345"
+                    />
+                    <div>
+                      <h2 class="fw-bold fs-5 mb-2">No.22 線上設計展</h2>
+                      <p class="fw-medium fs-5 mb-5">$350</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="card rounded-0 border-0">
+                    <img
+                      src="/EXHIBINECTION/assets/like2-Bhl-eFUf.jpg"
+                      alt="No.22 線上設計展"
+                      class="mb-2 img-fluid img-345"
+                    />
+                    <div>
+                      <h2 class="fw-bold fs-5 mb-2">No.22 線上設計展</h2>
+                      <p class="fw-medium fs-5 mb-5">$350</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="card rounded-0 border-0">
+                    <img
+                      src="/EXHIBINECTION/assets/like3-9-rn6NEL.jpg"
+                      alt="No.22 線上設計展"
+                      class="mb-2 img-fluid img-345"
+                    />
+                    <div>
+                      <h2 class="fw-bold fs-5 mb-2">No.22 線上設計展</h2>
+                      <p class="fw-medium fs-5 mb-5">$350</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="card rounded-0 border-0">
+                    <img
+                      src="/EXHIBINECTION/assets/like1-CRaNj5_8.jpg"
+                      alt="No.22 線上設計展"
+                      class="mb-2 img-fluid img-345"
+                    />
+                    <div>
+                      <h2 class="fw-bold fs-5 mb-2">No.22 線上設計展</h2>
+                      <p class="fw-medium fs-5 mb-5">$350</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="card rounded-0 border-0">
+                    <img
+                      src="/EXHIBINECTION/assets/like2-Bhl-eFUf.jpg"
+                      alt="No.22 線上設計展"
+                      class="mb-2 img-fluid img-345"
+                    />
+                    <div>
+                      <h2 class="fw-bold fs-5 mb-2">No.22 線上設計展</h2>
+                      <p class="fw-medium fs-5 mb-5">$350</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="card rounded-0 border-0">
+                    <img
+                      src="/EXHIBINECTION/assets/like3-9-rn6NEL.jpg"
+                      alt="No.22 線上設計展"
+                      class="mb-2 img-fluid img-345"
+                    />
+                    <div>
+                      <h2 class="fw-bold fs-5 mb-2">No.22 線上設計展</h2>
+                      <p class="fw-medium fs-5 mb-5">$350</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- 猜你也喜歡... 手機板-->
+      <div class="py-6 px-4 d-block d-md-none">
+        <h2 class="fw-bold fs-8 mb-2 mb-0">猜你也喜歡...</h2>
+        <div class="row">
+          <div class="col-12">
+            <div class="swiper">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <div class="card rounded-0 border-0">
+                    <img
+                      src="/EXHIBINECTION/assets/like1-CRaNj5_8.jpg"
+                      alt="No.22 線上設計展"
+                      class="mb-2 img-fluid img-345"
+                    />
+                    <div>
+                      <h2 class="fw-bold fs-5 mb-2">No.22 線上設計展</h2>
+                      <p class="fw-medium fs-5 mb-5">$350</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="card rounded-0 border-0">
+                    <img
+                      src="/EXHIBINECTION/assets/like2-Bhl-eFUf.jpg"
+                      alt="No.22 線上設計展"
+                      class="mb-2 img-fluid img-345"
+                    />
+                    <div>
+                      <h2 class="fw-bold fs-5 mb-2">No.22 線上設計展</h2>
+                      <p class="fw-medium fs-5 mb-5">$350</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="card rounded-0 border-0">
+                    <img
+                      src="/EXHIBINECTION/assets/like3-9-rn6NEL.jpg"
+                      alt="No.22 線上設計展"
+                      class="mb-2 img-fluid img-345"
+                    />
+                    <div>
+                      <h2 class="fw-bold fs-5 mb-2">No.22 線上設計展</h2>
+                      <p class="fw-medium fs-5 mb-5">$350</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="card rounded-0 border-0">
+                    <img
+                      src="/EXHIBINECTION/assets/like1-CRaNj5_8.jpg"
+                      alt="No.22 線上設計展"
+                      class="mb-2 img-fluid img-345"
+                    />
+                    <div>
+                      <h2 class="fw-bold fs-5 mb-2">No.22 線上設計展</h2>
+                      <p class="fw-medium fs-5 mb-5">$350</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="card rounded-0 border-0">
+                    <img
+                      src="/EXHIBINECTION/assets/like2-Bhl-eFUf.jpg"
+                      alt="No.22 線上設計展"
+                      class="mb-2 img-fluid img-345"
+                    />
+                    <div>
+                      <h2 class="fw-bold fs-5 mb-2">No.22 線上設計展</h2>
+                      <p class="fw-medium fs-5 mb-5">$350</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="card rounded-0 border-0">
+                    <img
+                      src="/EXHIBINECTION/assets/like3-9-rn6NEL.jpg"
+                      alt="No.22 線上設計展"
+                      class="mb-2 img-fluid img-345"
+                    />
+                    <div>
+                      <h2 class="fw-bold fs-5 mb-2">No.22 線上設計展</h2>
+                      <p class="fw-medium fs-5 mb-5">$350</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <div class="subscribe d-flex align-items-end px-4">
+  <div class="container">
+    <div class="row">
+      <div>
+        <h3 class="text-light fs-6 mb-8">
+          想收到最新消息嗎？<br />
+          快訂閱我們！
+        </h3>
+        <div class="input-group mb-11">
+          <input
+            type="text"
+            class="form-control"
+            placeholder="輸入您的電子信箱"
+            aria-label="Recipient's username"
+            aria-describedby="button-addon2"
+          />
+          <button class="btn btn-danger" type="button" id="button-addon2">
+            訂閱
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<nav class="navbar navbar-light bg-light">
+  <div class="container">
+    <div>
+      <a class="navbar-brand fs-6" href="index">EXHIBINECTION</a>
+      <p>© 2020. All Rights Reserved.</p>
+    </div>
+  </div>
+</nav>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+    <script>
+      const swiper = new Swiper(".swiper", {
+        // Default parameters
+        slidesPerView: 1,
+        spaceBetween: 30,
+        // Responsive breakpoints
+        breakpoints: {
+          // when window width is >= 320px
+          320: {
+            slidesPerView: 1,
+            spaceBetween: 30,
+          },
+          // when window width is >= 480px
+          480: {
+            slidesPerView: 3,
+            spaceBetween: 30,
+          },
+          // when window width is >= 768px
+          768: {
+            slidesPerView: 3,
+            spaceBetween: 30,
+          },
+        },
+      });
+    </script>
+  </body>
+</html>
